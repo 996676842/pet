@@ -9,13 +9,16 @@ public class Master {
 		myDog.setKind("金毛");
 		String sound = myDog.bark();
 		System.out.println(sound);
-		String s="骨头";
+		String s = "骨头";
 		myDog.eat(s);
 		myDog.sleep();
 
-		 
+		Cat myCat = new Cat();
+		String sound1 = myCat.bark();
+		System.out.println(sound1);
 		
-		
+	   
+
 		Master m = new Master();
 		String userName = "张三";
 		m.SayHello(userName);

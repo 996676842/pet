@@ -25,6 +25,10 @@ public class Pet {
 	}
 
 	public void setAge(int age) {
+		if (age>20||age<0) {
+			System.out.println("wrong");
+		}
+		else
 		this.age = age;
 	}
 
